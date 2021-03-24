@@ -1,4 +1,4 @@
-# kong-dev-portal-user-creator
+# kong-dev-portal-user-provisioner
 Authentication Action that creates a Dev Portal User in Kong
 
 
