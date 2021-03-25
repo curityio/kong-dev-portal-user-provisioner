@@ -22,7 +22,7 @@ import se.curity.identityserver.sdk.service.ExceptionFactory;
 import se.curity.identityserver.sdk.service.HttpClient;
 import se.curity.identityserver.sdk.service.WebServiceClientFactory;
 
-public interface CreateKongDevUserAuthenticationActionConfig extends Configuration
+public interface ProvisionKongDevUserAuthenticationActionConfig extends Configuration
 {
     @Description("The Kong Dev Portal URL (ex. http://kong-dev-portal:8004/register)")
     String getKongDevPortalUrl();

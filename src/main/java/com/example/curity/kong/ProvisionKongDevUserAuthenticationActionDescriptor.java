@@ -19,23 +19,23 @@ package com.example.curity.kong;
 import se.curity.identityserver.sdk.authenticationaction.AuthenticationAction;
 import se.curity.identityserver.sdk.plugin.descriptor.AuthenticationActionPluginDescriptor;
 
-public final class CreateKongDevUserAuthenticationActionDescriptor implements AuthenticationActionPluginDescriptor<CreateKongDevUserAuthenticationActionConfig>
+public final class ProvisionKongDevUserAuthenticationActionDescriptor implements AuthenticationActionPluginDescriptor<ProvisionKongDevUserAuthenticationActionConfig>
 {
     @Override
     public Class<? extends AuthenticationAction> getAuthenticationAction()
     {
-        return CreateKongDevUserAuthenticationAction.class;
+        return ProvisionKongDevUserAuthenticationAction.class;
     }
 
     @Override
     public String getPluginImplementationType()
     {
-        return "create-kong-dev-portal-user";
+        return "kong-dev-portal-user-provisioner";
     }
 
     @Override
-    public Class<? extends CreateKongDevUserAuthenticationActionConfig> getConfigurationType()
+    public Class<? extends ProvisionKongDevUserAuthenticationActionConfig> getConfigurationType()
     {
-        return CreateKongDevUserAuthenticationActionConfig.class;
+        return ProvisionKongDevUserAuthenticationActionConfig.class;
     }    
 }

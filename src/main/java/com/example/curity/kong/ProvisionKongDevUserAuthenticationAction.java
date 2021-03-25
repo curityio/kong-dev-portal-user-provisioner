@@ -36,15 +36,15 @@ import java.net.URI;
 import java.nio.charset.Charset;
 import java.util.Objects;
 
-public final class CreateKongDevUserAuthenticationAction implements AuthenticationAction
+public final class ProvisionKongDevUserAuthenticationAction implements AuthenticationAction
 {
-    private final CreateKongDevUserAuthenticationActionConfig _configuration;
+    private final ProvisionKongDevUserAuthenticationActionConfig _configuration;
     private final ExceptionFactory _exceptionFactory;
     private final WebServiceClient _client;
 
-    private final static Logger _logger = LoggerFactory.getLogger(CreateKongDevUserAuthenticationAction.class);
+    private final static Logger _logger = LoggerFactory.getLogger(ProvisionKongDevUserAuthenticationAction.class);
 
-    public CreateKongDevUserAuthenticationAction(CreateKongDevUserAuthenticationActionConfig configuration)
+    public ProvisionKongDevUserAuthenticationAction(ProvisionKongDevUserAuthenticationActionConfig configuration)
     {
         _configuration = configuration;
         _exceptionFactory = configuration.getExceptionFactory();

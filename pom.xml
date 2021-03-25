@@ -8,11 +8,11 @@
   </parent>
 
     <groupId>com.example.curity</groupId>
-    <artifactId>create-kong-dev-portal-user</artifactId>
+    <artifactId>kong-dev-portal-user-provisioner</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Create Kong Dev Portal User Authentication Action</name>
+    <name>Provision Kong Dev Portal User Authentication Action</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
