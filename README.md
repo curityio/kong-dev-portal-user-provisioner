@@ -2,7 +2,6 @@
 [![Quality](https://img.shields.io/badge/quality-experiment-red)](https://curity.io/resources/code-examples/status/)
 [![Availability](https://img.shields.io/badge/availability-source-blue)](https://curity.io/resources/code-examples/status/)
 
-
 A custom authentication action plugin for the Curity Identity Server that automates the provisioning of a user to the Kong Dev Portal.
 
 ## System Requirements
@@ -16,7 +15,7 @@ which can be installed.
 
 ## Installing the Plugin
 
-To install the plugin, copy the compiled JAR (and all of its dependencies) into the :file:`${IDSVR_HOME}/usr/share/plugins/${pluginGroup}` on each node, including the admin node. For more information about installing plugins, refer to the [Prodcut Documentation](https://support.curity.io/docs/latest/developer-guide/plugins/index.html#plugin-installation).
+To install the plugin, copy the compiled JAR (and all of its dependencies) into the :file:`${IDSVR_HOME}/usr/share/plugins/${pluginGroup}` on each node, including the admin node. For more information about installing plugins, refer to the [Product Documentation](https://support.curity.io/docs/latest/developer-guide/plugins/index.html#plugin-installation).
 
 ## Configuration
 
@@ -28,7 +27,7 @@ There are only two configuration parameters:
 ![Configure Action](etc/kong-dev-portal-action.png?raw=true "Configure Action")
 
 ## How does it work?
-The plugin needs to pass two attributes in order to successfully register a user in the Kong Dev Portal, the users full name and the email address. The payload that the plugin sends to register the user loosk like this:
+The plugin needs to pass two attributes in order to successfully register a user in the Kong Dev Portal, the users full name and the email address. The payload that the plugin sends to register the user looks like this:
 
 ```json
 {
@@ -37,7 +36,7 @@ The plugin needs to pass two attributes in order to successfully register a user
 }
 ```
 
-The plugin is currently operating with the Curity Identity Server default account table schema in order to resolve the information needed. The email is readily available in a column. The full name of the user is not howvere. The default schema of the column containing first and last name looks is the attributes column and contains a JSON blog.
+The plugin is currently operating with the Curity Identity Server default account table schema in order to resolve the information needed. The email is readily available in a column. The full name of the user is not, however. The default schema of the column containing first and last name looks is the attributes column and contains a JSON blog.
 
 ```json
 {"emails":[{"value":"alice@example.com","primary":true}],"phoneNumbers":[{"value":"555-123-1234","primary":true}],"name":{"givenName":"alice","familyName":"anderson"},"agreeToTerms":"on","urn:se:curity:scim:2.0:Devices":[]}
