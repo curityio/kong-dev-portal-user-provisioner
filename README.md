@@ -1,12 +1,6 @@
 # Kong Dev Portal User Provisioner Action
-
-.. image:: https://img.shields.io/badge/quality-demo-red
-   :target: https://curity.io/resources/code-examples/status/
-   :alt: Quality
-
-.. image:: https://img.shields.io/badge/availability-source-blue
-   :target: https://curity.io/resources/code-examples/status/
-   :alt: Availability
+[![Quality](https://img.shields.io/badge/quality-experiment-red)](https://curity.io/resources/code-examples/status/)
+[![Availability](https://img.shields.io/badge/availability-source-blue)](https://curity.io/resources/code-examples/status/)
 
 
 A custom authentication action plugin for the Curity Identity Server that automates the provisioning of a user to the Kong Dev Portal.
