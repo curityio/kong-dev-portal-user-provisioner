@@ -36,7 +36,7 @@ The plugin needs to pass two attributes in order to successfully register a user
 }
 ```
 
-The plugin is currently operating with the Curity Identity Server default account table schema in order to resolve the information needed. The email is readily available in a column. The full name of the user is not, however. The default schema of the column containing first and last name looks is the attributes column and contains a JSON blog.
+The plugin is currently operating with the Curity Identity Server default account table schema in order to resolve the information needed. The email is readily available in a column. The full name of the user is not, however. The default schema of the column containing first and last name is the attributes column and contains a JSON blob.
 
 ```json
 {"emails":[{"value":"alice@example.com","primary":true}],"phoneNumbers":[{"value":"555-123-1234","primary":true}],"name":{"givenName":"alice","familyName":"anderson"},"agreeToTerms":"on","urn:se:curity:scim:2.0:Devices":[]}
