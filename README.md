@@ -6,7 +6,7 @@ A custom authentication action plugin for the Curity Identity Server that automa
 
 ## System Requirements
 
-The plugin is only tested with Curity Identity Server 6.0.0 but should work with older version also. More details in the [Systems Requirement](https://developer.curity.io/docs/latest/system-admin-guide/system-requirements.html) section of the product documentation.
+The plugin is tested with the Curity Identity Server 8.3.1, but should work with older version also. More details in the [Systems Requirement](https://developer.curity.io/docs/latest/system-admin-guide/system-requirements.html) section of the product documentation.
 
 ## Building the Plugin
 
