@@ -16,7 +16,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.curityVersion>8.3.2</project.curityVersion>
+        <project.curityVersion>8.5.2</project.curityVersion>
         <project.slf4jVersion>2.0.3</project.slf4jVersion>
     </properties>
 
@@ -67,7 +67,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20230618</version>
+            <version>20231013</version>
         </dependency>
     </dependencies>
 </project>
